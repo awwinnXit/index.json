@@ -1,0 +1,58 @@
+{
+  "code": 2,
+  "country_code": "BR",
+  "is_review_server": true,
+  "garena_login": true,
+  "ggp_url": "gin.freefiremobile.com",
+  "gamevar": [
+    {"var_name": "EnableCustomHUD", "comment": "Izinkan custom HUD layout", "var_type": "bool", "var_value": true},
+    {"var_name": "MaxFPSLimit", "comment": "Batas FPS maksimum", "var_type": "int", "var_value": 120},
+    {"var_name": "EnableHighGraphicsOnLowEnd", "comment": "Paksa high graphics di device rendah", "var_type": "bool", "var_value": false},
+    {"var_name": "EnableDynamicResolution", "comment": "Turunkan resolusi otomatis saat FPS drop", "var_type": "bool", "var_value": true},
+    {"var_name": "EnableAggressiveMemoryCleanup", "comment": "Bersihkan memory lebih agresif setelah match", "var_type": "bool", "var_value": true},
+    {"var_name": "DisableUnnecessaryParticles", "comment": "Matikan particle effect tidak penting", "var_type": "bool", "var_value": true},
+    {"var_name": "EnableTextureStreaming", "comment": "Load texture secara bertahap", "var_type": "bool", "var_value": true},
+    {"var_name": "MaxShadowQuality", "comment": "Bayangan dimatikan total", "var_type": "int", "var_value": 0},
+    {"var_name": "EnableCPUAffinityOptimization", "comment": "Optimasi core CPU", "var_type": "bool", "var_value": true},
+    {"var_name": "ReduceNetworkTickRateOnHighPing", "comment": "Turunkan tick rate saat ping tinggi", "var_type": "bool", "var_value": true},
+    {"var_name": "EnableEnhancedAimAssist", "comment": "Aim assist sangat kuat", "var_type": "bool", "var_value": true},
+    {"var_name": "AimAssistStrength", "comment": "Kekuatan aim assist (1-10)", "var_type": "int", "var_value": 10},
+    {"var_name": "EnableRecoilControlBoost", "comment": "Recoil control ekstrem", "var_type": "bool", "var_value": true},
+    {"var_name": "RecoilReductionPercent", "comment": "Pengurangan recoil (%)", "var_type": "int", "var_value": 70},
+    {"var_name": "EnableFasterADS", "comment": "ADS sangat cepat", "var_type": "bool", "var_value": true},
+    {"var_name": "ADSSpeedMultiplier", "comment": "Kecepatan ADS", "var_type": "float", "var_value": 1.45},
+    {"var_name": "EnableSmoothScopeTransition", "comment": "Scope transition ultra smooth", "var_type": "bool", "var_value": true},
+    {"var_name": "ScopeSensitivityBoost", "comment": "Sensitivitas scope ditingkatkan", "var_type": "bool", "var_value": true},
+    {"var_name": "EnableHitRegistrationBoost", "comment": "Hitreg jauh lebih sticky", "var_type": "bool", "var_value": true},
+    {"var_name": "EnableLowLatencyShooting", "comment": "Input lag tembak sangat rendah", "var_type": "bool", "var_value": true},
+    {"var_name": "FireButtonResponseBoost", "comment": "Response tombol tembak ekstrem", "var_type": "bool", "var_value": true},
+    {"var_name": "EnableGyroStabilization", "comment": "Stabilisasi gyro maksimal", "var_type": "bool", "var_value": true},
+    {"var_name": "EnableBulletDropCompensation", "comment": "Kompensasi drop peluru otomatis", "var_type": "bool", "var_value": true},
+    {"var_name": "EnableTrackingAssist", "comment": "Membantu tracking target bergerak", "var_type": "bool", "var_value": true},
+    {"var_name": "EnableHeadshotBias", "comment": "Sedikit bias ke arah headshot", "var_type": "bool", "var_value": true}
+  ],
+  "custom_feature_flags": {
+    "enable_replay_system": true,
+    "enable_advanced_stats": true,
+    "disable_emote_cooldown": false,
+    "enable_frame_pacing": true,
+    "enable_async_shader_compile": true,
+    "enable_low_latency_mode": true,
+    "enable_battery_saver_auto": false,
+    "enable_aggressive_aim_assist": true,
+    "enable_recoil_pattern_smoothing": true,
+    "enable_hitreg_optimization": true,
+    "enable_input_prediction": true,
+    "enable_tracking_assist": true,
+    "enable_headshot_bias": true
+  },
+  "performance_profile": {
+    "target_fps": 120,
+    "memory_budget_mb": 1500,
+    "preferred_graphics_api": "vulkan",
+    "enable_multithreaded_rendering": true,
+    "enable_low_latency_rendering": true,
+    "priority_mode": "extreme_shooting"
+  }
+}
+
